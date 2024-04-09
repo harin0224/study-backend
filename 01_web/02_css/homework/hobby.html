@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/homework.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+      $(function () {
+        let pay = 0;
+        let finalpay = 0;
+        $("#b1").click(function () {
+          pay = $("#money").val();
+          let payment = $("#choice").val();
+          if (payment == "계좌이체") {
+            finalpay = pay * 0.8;
+          } else if (payment == "신용카드") {
+            finalpay = pay * 0.9;
+          } else if (payment == "휴대폰결제") {
+            finalpay = pay;
+          }
+          $("#payresult").text("결제금액: " + finalpay);
+        });
+
+        $("#b2").click(function () {
+          let id = $("#id").val();
+          if (id == "apple" || id == "root") {
+            $("#idresult").text("중복 아이디입니다.");
+          } else $("#idresult").text("사용가능한 아이디입니다.");
+        });
+
+        $("#b3").click(function () {
+          let headnum = $("#tel").val();
+          let cernum;
+          if (headnum.startsWith("011")) {
+            cernum = "01" + "234";
+          } else if (headnum.startsWith("010")) {
+            cernum = "02" + "234";
+          } else {
+            cernum = "03" + "234";
+          }
+          $("#numresult").text("당신의 인증번호는" + cernum + "입니다.");
+        });
+      });
+    </script>
+    <title>Document</title>
+  </head>
+  <style>
+    .link:hover {
+      color: white;
+    }
+
+    .gametitle {
+      background-color: rgb(255, 219, 225);
+    }
+    .gamelink {
+      background-color: rgb(255, 175, 189);
+    }
+    .price {
+      background-color: rgb(255, 130, 151);
+    }
+
+    table {
+      border: 1px solid black;
+      font-size: 30px;
+    }
+    tr {
+      height: 50px;
+      border: 1px solid black;
+    }
+    td {
+      border: 1px solid black;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                href="homework.html"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >main</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="cat.html" class="nav-link" href="#">cat</a>
+            </li>
+            <li class="nav-item">
+              <a href="clip.html" class="nav-link" href="#">highlight</a>
+            </li>
+            <li class="nav-item">
+              <a href="hobby.html" class="nav-link" href="#">hobby</a>
+            </li>
+            <li class="nav-item">
+              <a href="restaurant.html" class="nav-link" href="#">restaurant</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <br />
+      <h1>게임</h1>
+      <table>
+        <tr bgcolor="white">
+          <td>게임명</td>
+          <td>링크</td>
+          <td>가격</td>
+        </tr>
+        <tr>
+          <td class="gametitle">valorant</td>
+          <td class="gamelink">
+            <a class="link" href="https://playvalorant.com/ko-kr/"
+              >https://playvalorant.com/ko-kr/</a
+            >
+          </td>
+          <td class="price">0원</td>
+        </tr>
+        <tr>
+          <td class="gametitle">Lethal Company</td>
+          <td class="gamelink">
+            <a
+              class="link"
+              href="https://store.steampowered.com/app/1966720/Lethal_Company/"
+              >https://store.steampowered.com/app/1966720/Lethal_Company/</a
+            >
+          </td>
+          <td class="price">11000원</td>
+        </tr>
+        <tr>
+          <td class="gametitle">Stardew Valley</td>
+          <td class="gamelink">
+            <a
+              class="link"
+              href="https://store.steampowered.com/app/413150/Stardew_Valley/"
+              >https://store.steampowered.com/app/413150/Stardew_Valley/</a
+            >
+          </td>
+          <td class="price">16000원</td>
+        </tr>
+        <tr>
+          <td class="gametitle">Animal Crossing</td>
+          <td class="gamelink">
+            <a
+              class="link"
+              href="https://www.nintendo.co.kr/switch/acbaa/index.html"
+              >https://www.nintendo.co.kr/switch/acbaa/index.html</a
+            >
+          </td>
+          <td class="price">65000원</td>
+        </tr>
+      </table>
+      <br />
+      <div>
+        <br />
+        <hr />
+        <br />
+        <h3>게임 결제</h3>
+        결제 금액:
+        <input type="text" id="money" /><br />
+        <br />
+        1) 계좌이체 2) 신용카드 3)휴대폰결제 <br />
+        결제 수단:
+        <input type="text" id="choice" />
+        <button
+          style="color: rgb(255, 255, 255); background: rgb(255, 130, 151)"
+          id="b1"
+        >
+          결제하기
+        </button>
+        <div id="payresult"></div>
+        <br />
+        <br />
+
+        회원가입할 id 입력:
+        <input type="text" id="id" />
+        <button
+          style="color: rgb(255, 255, 255); background: rgb(255, 130, 151)"
+          id="b2"
+        >
+          id 중복 체크
+        </button>
+        <div id="idresult"></div>
+        <br />
+        인증받을 전화번호 입력:
+        <input type="text" id="tel" />
+        <button
+          style="color: rgb(255, 255, 255); background: rgb(255, 130, 151)"
+          id="b3"
+        >
+          인증번호 받기
+        </button>
+        <div id="numresult"></div>
+        <br />
+      </div>
+    </div>
+  </body>
+</html>

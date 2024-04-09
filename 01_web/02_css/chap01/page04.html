@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        color: blue; /*모든 p 태그가 블루로 나옴*/
+        font-style: italic;
+      }
+      #p1 {
+        /*아이디는 #으로 접근*/
+        background: yellow;
+        border-style: solid;
+        border-width: 20px;
+      }
+
+      #p4 {
+        border-style: dotted dashed solid double; /*top 부터 시작해서 시계방향으로 설정*/
+        height: fit-content;
+      }
+    </style>
+  </head>
+  <body>
+    <!--아이디는 중복되면 안됨, 클래스는 중복-->
+    <p id="p1" class="c1">네이버</p>
+    <p id="p2">구글</p>
+    <p id="p3" class="c1">다음</p>
+    <p id="p4">쿠팡</p>
+  </body>
+</html>
