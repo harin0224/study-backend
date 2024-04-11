@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script></script>
+  </head>
+  <body>
+    <script>
+      let x = 100; // 전역
+      y = 100;
+      sum = 1000;
+
+      if ((x = y)) {
+        total = 200; // 전역, var let 안붙어서
+        var sum = 200;
+
+        let x = 999;
+        let y = 999;
+
+        alert("total" + total); // 100 전역
+        alert("sum" + sum); // 200
+        alert("x" + x); // 999
+      }
+
+      alert("total" + total); // 100 전역
+      alert("sum" + sum); // 200 전역
+      alert("x" + x); // 100 전역
+      alert("y" + y); // 출력x
+    </script>
+  </body>
+</html>
