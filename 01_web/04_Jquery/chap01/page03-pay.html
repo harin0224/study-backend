@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+      $(function () {
+        // $("button").click(function () {   // 기본 처리 방식
+        $("#paymentForm").on("submit", function (e) {
+          //pamentForn에 적용하는 이벤트
+          //submit 동작하는거에 이벤트 걸어줄 것
+          //event 핸들러로 e를 사용
+
+          e.preventDefault();
+          let money = $("#money").val();
+          let count = $("#count").val();
+
+          let money2 = parseInt(money);
+          let count2 = parseInt(count);
+
+          console.log(money2);
+          console.log(count2);
+
+          if (isNaN(money2) || isNaN(money2)) {
+            //isNaN: 숫자가 아니냐
+            alert("숫자를 입력해 주세요");
+            return; // 숫자 아니면 함수 중단
+          }
+
+          let sum = money2 * count2;
+          if (sum <= 20000) {
+            alert("10000원 이하입니다.");
+          } else if (sum <= 20000) {
+            e.preventDefault(); // 폼의 기본 제출동작을 방지
+            location.href = "https://www.naver.com";
+          } else {
+            alert("소액결제만 가능합니다. 다시 입력해주세요.!!");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <form id="paymentForm">
+      하나당 가격:
+      <input id="money" type="number" value="10000" required /><br />
+      물건의 개수: <input id="count" type="number" value="50" required /><br />
+      <button style="background: lime">결제하기</button>
+    </form>
+    <!--작동하려면 form 태그로 감싸야 한다.-->
+    <!-- 버튼의 기본 타입은 submit. type='button'-->
+    <!-- 버튼은 버튼 기능만 하고, 서브밋은 서브밋으로 날라간다. 서브밋을 안적으면 기본적으로 세팅된거는 서브밋. 외부로 날라간다는 뜻-->
+  </body>
+</html>
