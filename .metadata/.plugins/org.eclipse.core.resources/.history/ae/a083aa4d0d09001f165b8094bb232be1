@@ -1,0 +1,15 @@
+-- New script in localhost.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : C:\Database
+-- Date: 2024. 5. 3.
+-- Time: 오전 11:39:20
+
+-- 오라클 계정생성 system 으로 연결후 생성하고 권한주기 
+create user scott identified by tiger;
+
+grant connect, resource, dba TO scott;
+
+create user apple identified by 1234;
+grant connect, resource, dba TO apple;
+

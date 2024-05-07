@@ -1,0 +1,12 @@
+dataformat.profile.country=KR
+dataformat.profile.language=ko
+driver.selector.orderBy=score
+eclipse.preferences.version=1
+new.script.template=-- New script in ${datasource}.\r\n-- Connection Type\: ${connection.type} \r\n-- Url\: ${url}\r\n-- workspace \: ${workspace}\r\n-- Date\: ${date}\r\n-- Time\: ${time}
+new.script.template.enabled=true
+sample.database.canceled=true
+sql.format.keywordCase=UPPER
+sql.proposals.insert.table.alias=NONE
+tipOfTheDayInitializer.notFirstRun=true
+ui.auto.update.check.time=1714700519876
+ui.show.tip.of.the.day.on.startup=true

@@ -1,0 +1,789 @@
+2024-05-07 09:23:21.935 - DBeaver 24.0.3.202404211624 is starting
+2024-05-07 09:23:21.936 - OS: Windows 10 10.0 (amd64)
+2024-05-07 09:23:21.936 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-05-07 09:23:21.936 - Install path: 'C:\Users\21928199\AppData\Local\DBeaver'
+2024-05-07 09:23:21.937 - Instance path: 'file:/C:/Database/'
+2024-05-07 09:23:21.938 - Memory available 64Mb/1024Mb
+2024-05-07 09:23:21.944 - Create display
+2024-05-07 09:23:22.021 - Initialize desktop platform...
+2024-05-07 09:23:22.113 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
+2024-05-07 09:23:22.267 - Initialize base platform...
+2024-05-07 09:23:22.286 - Platform initialized (265ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
+2024-05-07 09:23:22.346 - Starting instance server at http://localhost:58318
+2024-05-07 09:23:22.362 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
+2024-05-07 09:23:26.502 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
+2024-05-07 09:23:26.586 - Total database drivers: 112 (112)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
+2024-05-07 09:23:26.654 - Create actions
+2024-05-07 09:23:26.658 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-05-07 09:23:26.658 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-05-07 09:23:26.658 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-05-07 09:23:26.658 - Create workbench actions
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+2024-05-07 09:23:27.303 - Initialize workbench window
+2024-05-07 09:23:27.307 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.200.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.129.202404211624]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.166.202404211624]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.135.202404211624]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.89.202404211624]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.89.202404211624]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.126.202404211624]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.2.202404211624]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
+2024-05-07 09:23:30.787 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
+2024-05-07 09:23:35.825 - Connect with 'localhost' (oracle_thin-18f3c214ff9-3c6a785f3231a7b8)
+2024-05-07 09:23:35.845 - Execution context opened (localhost; Main; 0)
+2024-05-07 09:23:36.071 - Execution context opened (localhost; Metadata; 1)
+2024-05-07 09:23:36.123 - Connected (oracle_thin-18f3c214ff9-3c6a785f3231a7b8, Oracle JDBC driver [11.2.0.2.0])
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.105.202404211624]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+2024-05-07 09:23:40.360 - Execution context opened (localhost; SQLEditor <Script-8.sql>; 2)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.116.202404211624]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.121.202404211624]
+2024-05-07 09:23:44.522 - Connect with 'localhost 2' (mysql8-18f3c45fc22-3737edc8508e152f)
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.214.202404211624]
+2024-05-07 09:23:44.528 - Execution context opened (localhost 2; Main; 3)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.153.202404211624]
+2024-05-07 09:23:44.652 - Execution context opened (localhost 2; Metadata; 4)
+2024-05-07 09:23:44.684 - Connected (mysql8-18f3c45fc22-3737edc8508e152f, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-05-07 09:23:44.698 - Execution context opened (localhost 2; SQLEditor <Script-9.sql>; 5)
+2024-05-07 09:23:47.066 - Connect with 'localhost 3' (oracle_thin-18f3cd788a5-1cf3a2fe3a471e96)
+2024-05-07 09:23:47.067 - Execution context opened (localhost 3; Main; 6)
+2024-05-07 09:23:47.082 - Execution context opened (localhost 3; Metadata; 7)
+2024-05-07 09:23:47.101 - Connected (oracle_thin-18f3cd788a5-1cf3a2fe3a471e96, Oracle JDBC driver [11.2.0.2.0])
+2024-05-07 09:23:47.115 - Execution context opened (localhost 3; SQLEditor <day01_oracle.sql>; 8)
+2024-05-07 09:23:49.004 - Connect with 'localhost 4' (oracle_thin-18f3d017293-54d914816ac6aba6)
+2024-05-07 09:23:49.005 - Execution context opened (localhost 4; Main; 9)
+2024-05-07 09:23:49.023 - Execution context opened (localhost 4; Metadata; 10)
+2024-05-07 09:23:49.039 - Connected (oracle_thin-18f3d017293-54d914816ac6aba6, Oracle JDBC driver [11.2.0.2.0])
+2024-05-07 09:23:49.058 - Execution context opened (localhost 4; SQLEditor <Script-5.sql>; 11)
+2024-05-07 09:23:54.422 - Connect with 'localhost 5' (oracle_thin-18f3d28c3df-1895caf064da1940)
+2024-05-07 09:23:54.422 - Execution context opened (localhost 5; Main; 12)
+2024-05-07 09:23:54.437 - Execution context opened (localhost 5; Metadata; 13)
+2024-05-07 09:23:54.455 - Connected (oracle_thin-18f3d28c3df-1895caf064da1940, Oracle JDBC driver [11.2.0.2.0])
+2024-05-07 09:23:54.470 - Execution context opened (localhost 5; SQLEditor <Script-7.sql>; 14)
+2024-05-07 09:23:56.489 - Connect with 'localhost 6' (oracle_thin-18f3d7a4458-3c072ddd3f2dcb2c)
+2024-05-07 09:23:56.489 - Execution context opened (localhost 6; Main; 15)
+2024-05-07 09:23:56.503 - Execution context opened (localhost 6; Metadata; 16)
+2024-05-07 09:23:56.522 - Connected (oracle_thin-18f3d7a4458-3c072ddd3f2dcb2c, Oracle JDBC driver [11.2.0.2.0])
+2024-05-07 09:23:56.539 - Execution context opened (localhost 6; SQLEditor <DB_20240503_안혜선.sql>; 17)
+2024-05-07 09:23:58.255 - Connect with 'localhost 7' (oracle_thin-18f3d7bcf65-693190cdc88d6e2a)
+2024-05-07 09:23:58.255 - Execution context opened (localhost 7; Main; 18)
+2024-05-07 09:23:58.270 - Execution context opened (localhost 7; Metadata; 19)
+2024-05-07 09:23:58.287 - Connected (oracle_thin-18f3d7bcf65-693190cdc88d6e2a, Oracle JDBC driver [11.2.0.2.0])
+2024-05-07 09:23:58.303 - Execution context opened (localhost 7; SQLEditor <Script-11.sql>; 20)
+2024-05-07 09:24:00.209 - Connect with 'localhost 8' (oracle_thin-18f3d7cc7b4-5fdae4d043706b62)
+2024-05-07 09:24:00.210 - Execution context opened (localhost 8; Main; 21)
+2024-05-07 09:24:00.229 - Execution context opened (localhost 8; Metadata; 22)
+2024-05-07 09:24:00.246 - Connected (oracle_thin-18f3d7cc7b4-5fdae4d043706b62, Oracle JDBC driver [11.2.0.2.0])
+2024-05-07 09:24:00.265 - Execution context opened (localhost 8; SQLEditor <Script-12.sql>; 23)
+2024-05-07 10:01:09.144 - Execution context closed (localhost 2, 5)
+2024-05-07 10:01:12.479 - Execution context closed (localhost, 2)
+2024-05-07 10:01:14.648 - Execution context closed (localhost 3, 8)
+2024-05-07 10:01:15.752 - Execution context closed (localhost 4, 11)
+2024-05-07 10:01:17.659 - Execution context closed (localhost 5, 14)
+2024-05-07 10:01:18.531 - Execution context closed (localhost 8, 23)
+2024-05-07 10:01:20.512 - Execution context closed (localhost 7, 20)
+2024-05-07 10:01:22.408 - Execution context closed (localhost 6, 17)
+2024-05-07 10:01:32.770 - Execution context opened (localhost; SQLEditor <Script-8.sql>; 24)
+2024-05-07 10:10:05.473 - Execution context opened (localhost; SQLEditor <Script-8.sql>; 25)
+2024-05-07 10:11:05.677 - Event loop exception
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor.checkCanceled(SubMonitor.java:683)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1528)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1522)
+	at org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerRenameFile.renameFile(SQLEditorHandlerRenameFile.java:84)
+	at org.jkiss.dbeaver.ui.e4.DBeaverStackRenderer$5.widgetSelected(DBeaverStackRenderer.java:247)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-05-07 10:11:24.831 - Event loop exception
+java.lang.IllegalArgumentException: Illegal value: -1
+	at org.eclipse.core.internal.resources.Resource.revertModificationStamp(Resource.java:1633)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.commitFileBufferContent(ResourceTextFileBuffer.java:348)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.commit(ResourceFileBuffer.java:317)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.commitFileBuffer(TextFileDocumentProvider.java:870)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$2.execute(TextFileDocumentProvider.java:804)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:133)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:71)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:783)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5009)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.handleExceptionOnSave(AbstractTextEditor.java:5052)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5015)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4805)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase.doSave(SQLEditorBase.java:537)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor.doSave(SQLEditor.java:3199)
+	at org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerRenameFile.renameFile(SQLEditorHandlerRenameFile.java:79)
+	at org.jkiss.dbeaver.ui.e4.DBeaverStackRenderer$5.widgetSelected(DBeaverStackRenderer.java:247)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
+2024-05-07 10:16:44.831 - Can't get column 'EXTERNAL_NAME': 부적합한 열 이름
+2024-05-07 10:16:44.831 - Can't get column 'ACCOUNT_STATUS': 부적합한 열 이름
+2024-05-07 10:16:44.831 - Can't get column 'LOCK_DATE': 부적합한 열 이름
+2024-05-07 10:16:44.832 - Can't get column 'EXPIRY_DATE': 부적합한 열 이름
+2024-05-07 10:16:44.832 - Can't get column 'DEFAULT_TABLESPACE': 부적합한 열 이름
+2024-05-07 10:16:44.832 - Can't get column 'TEMPORARY_TABLESPACE': 부적합한 열 이름
+2024-05-07 10:16:44.832 - Can't get column 'PROFILE': 부적합한 열 이름
+2024-05-07 10:16:44.832 - Can't get column 'INITIAL_RSRC_CONSUMER_GROUP': 부적합한 열 이름
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.113.202404211624]
+2024-05-07 10:18:15.594 - Execution context opened (bbs33.csv; Main; 26)
+2024-05-07 10:18:22.106 - Execution context opened (localhost; Data transfer consumer; 27)
+2024-05-07 10:18:22.151 - Execution context closed (localhost, 27)
+> Start DBeaver Tasks - Native Tools [org.jkiss.dbeaver.tasks.native 1.0.107.202404211624]
+2024-05-07 10:18:48.816 - Execution context opened (bbs33.csv; Main; 28)
+2024-05-07 10:19:05.032 - Execution context opened (localhost; Data transfer consumer; 29)
+2024-05-07 10:19:05.062 - Execution context closed (localhost, 29)
+2024-05-07 10:21:59.299 - SQL Error [942] [42000]: ORA-00942: table or view does not exist
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: table or view does not exist
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.model.impl.jdbc.struct.JDBCTable.readData(JDBCTable.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+2024-05-07 10:22:20.013 - Execution context opened (bbs33.csv; Main; 30)
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+2024-05-07 10:22:48.790 - Object 'BBS' not found in struct cache (TableCache)
+2024-05-07 10:22:48.790 - Object 'BBS' not found in struct cache (TableCache)
+2024-05-07 10:22:48.790 - Object 'BBS' not found in struct cache (TableCache)
+2024-05-07 10:22:48.790 - Object 'BBS' not found in struct cache (TableCache)
+2024-05-07 10:22:48.824 - Can't get column 'COLUMN_NAMES_NUMS': 부적합한 열 이름
+2024-05-07 10:22:53.677 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:22:53.677 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:22:53.677 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-07 10:22:53.735 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+
+Error position: line: 28 pos: 13
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-07 10:23:01.266 - Execution context opened (bbs33.csv; Main; 31)
+2024-05-07 10:23:04.841 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.executePersistAction(DBExecUtils.java:363)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.executePersistActions(DBExecUtils.java:345)
+	at org.jkiss.dbeaver.tools.transfer.database.DatabaseTransferUtils.executeDDL(DatabaseTransferUtils.java:555)
+	at org.jkiss.dbeaver.tools.transfer.database.DatabaseTransferConsumer.createTargetTable(DatabaseTransferConsumer.java:710)
+	at org.jkiss.dbeaver.tools.transfer.database.DatabaseTransferConsumer.createTargetDatabaseObjects(DatabaseTransferConsumer.java:675)
+	at org.jkiss.dbeaver.tools.transfer.database.DatabaseTransferConsumer.startTransfer(DatabaseTransferConsumer.java:642)
+	at org.jkiss.dbeaver.tools.transfer.task.DTTaskHandlerTransfer.lambda$1(DTTaskHandlerTransfer.java:125)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 9 more
+2024-05-07 10:23:13.264 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:13.264 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:13.264 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-07 10:23:13.326 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+
+Error position: line: 36 pos: 13
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-07 10:23:27.548 - Execution context opened (bbs33.csv; Main; 32)
+2024-05-07 10:23:30.931 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.executePersistAction(DBExecUtils.java:363)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.executePersistActions(DBExecUtils.java:345)
+	at org.jkiss.dbeaver.tools.transfer.database.DatabaseTransferUtils.executeDDL(DatabaseTransferUtils.java:555)
+	at org.jkiss.dbeaver.tools.transfer.database.DatabaseTransferConsumer.createTargetTable(DatabaseTransferConsumer.java:710)
+	at org.jkiss.dbeaver.tools.transfer.database.DatabaseTransferConsumer.createTargetDatabaseObjects(DatabaseTransferConsumer.java:675)
+	at org.jkiss.dbeaver.tools.transfer.database.DatabaseTransferConsumer.startTransfer(DatabaseTransferConsumer.java:642)
+	at org.jkiss.dbeaver.tools.transfer.task.DTTaskHandlerTransfer.lambda$1(DTTaskHandlerTransfer.java:125)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 9 more
+2024-05-07 10:23:44.413 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-07 10:23:44.459 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:44.459 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:44.459 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-07 10:23:46.253 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-07 10:23:46.297 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:46.297 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:46.297 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-07 10:23:48.543 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:48.543 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:48.543 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-07 10:23:48.599 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+
+Error position: line: 28 pos: 13
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-07 10:23:51.191 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:51.191 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:23:51.192 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-07 10:23:51.244 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+
+Error position: line: 36 pos: 13
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-07 10:24:00.112 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:24:00.112 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-07 10:24:00.112 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-07 10:24:00.163 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+
+Error position: line: 28 pos: 13
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-07 10:24:20.336 - Execution context opened (bbs33.csv; Main; 33)
+2024-05-07 10:24:24.090 - Execution context opened (localhost; Data transfer consumer; 34)
+2024-05-07 10:24:24.125 - Execution context closed (localhost, 34)
+line 1:0 token recognition error at: '시'
+line 1:1 token recognition error at: '된'
+line 1:2 token recognition error at: '다'
+line 1:0 token recognition error at: '시'
+line 1:1 token recognition error at: '된'
+line 1:2 token recognition error at: '다'
+line 1:0 token recognition error at: '시'
+line 1:1 token recognition error at: '된'
+line 1:2 token recognition error at: '다'
+line 1:0 token recognition error at: '위'
+2024-05-07 10:50:54.177 - SQL Error [911] [22019]: ORA-00911: invalid character
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: invalid character
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+line 1:0 token recognition error at: '데'
+line 1:1 token recognition error at: '이'
+line 1:2 token recognition error at: '터'
+line 1:3 token recognition error at: '를'
+line 1:5 token recognition error at: '검'
+line 1:6 token recognition error at: '색'
+line 1:8 token recognition error at: '추'
+line 1:9 token recognition error at: '출'
+line 1:10 token recognition error at: '하'
+line 1:11 token recognition error at: '기'
+line 1:13 token recognition error at: '위'
+line 1:14 token recognition error at: '해'
+line 1:16 token recognition error at: '사'
+line 1:17 token recognition error at: '용'
+line 1:18 token recognition error at: '하'
+line 1:19 token recognition error at: '는'
+line 1:21 token recognition error at: '언'
+line 1:22 token recognition error at: '어'
+line 1:0 token recognition error at: '※'
+line 1:0 token recognition error at: '※'
+2024-05-07 11:50:05.897 - Error while analyzing query text: CREATE TABLE 
+ 
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 12:05:57.236 - Execution context closed (localhost, 25)
+2024-05-07 12:05:57.236 - Error flushing project metadata
+java.nio.file.NoSuchFileException: C:\Database\General\.dbeaver\project-metadata.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.jkiss.dbeaver.registry.BaseProjectImpl$ProjectSyncJob.run(BaseProjectImpl.java:633)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 12:06:01.180 - Event loop exception
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.texteditor.IDocumentProvider.isDeleted(Object)" because "provider" is null
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.performSaveAs(AbstractDecoratedTextEditor.java:1572)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.handleEditorInputChanged(AbstractTextEditor.java:4682)
+	at org.eclipse.ui.texteditor.StatusTextEditor.handleEditorInputChanged(StatusTextEditor.java:290)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.handleEditorInputChanged(AbstractDecoratedTextEditor.java:1493)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.sanityCheckState(AbstractTextEditor.java:4855)
+	at org.eclipse.ui.texteditor.StatusTextEditor.sanityCheckState(StatusTextEditor.java:276)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.safelySanityCheckState(AbstractTextEditor.java:4833)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$ActivationListener.handleActivation(AbstractTextEditor.java:980)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-05-07 12:06:05.457 - Execution context closed (localhost, 24)
+2024-05-07 12:06:05.457 - Error flushing project metadata
+java.nio.file.NoSuchFileException: C:\Database\General\.dbeaver\project-metadata.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.jkiss.dbeaver.registry.BaseProjectImpl$ProjectSyncJob.run(BaseProjectImpl.java:633)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 12:06:06.142 - Event loop exception
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4899)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.custom.CTabFolder.showItem(CTabFolder.java:3719)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3243)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1891)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:332)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-05-07 12:06:18.953 - DBeaver is stopping
+2024-05-07 12:06:18.953 - Stop instance server
+2024-05-07 12:06:19.962 - Can't stop instance server
+java.nio.file.NoSuchFileException: C:\Database\.metadata\dbeaver-instance.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.base/java.nio.file.Files.delete(Unknown Source)
+	at org.jkiss.dbeaver.ui.app.standalone.rpc.DBeaverInstanceServer.stopInstanceServer(DBeaverInstanceServer.java:293)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.lambda$5(DBeaverApplication.java:691)
+	at org.jkiss.dbeaver.utils.RuntimeUtils$MonitoringTask.run(RuntimeUtils.java:727)
+	at org.jkiss.dbeaver.utils.RuntimeUtils$1.run(RuntimeUtils.java:263)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 12:06:19.963 - DBeaver shutdown completed
