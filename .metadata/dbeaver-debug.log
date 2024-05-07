@@ -684,3 +684,9 @@ Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by 
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 12 more
+2024-05-07 15:49:40.721 - End idle 1 transactions for oracle_thin-18f3c214ff9-3c6a785f3231a7b8
+2024-05-07 18:40:13.179 - Execution context closed (localhost, 2)
+2024-05-07 18:40:13.214 - Execution context closed (localhost, 4)
+2024-05-07 18:40:13.329 - DBeaver is stopping
+2024-05-07 18:40:13.330 - Stop instance server
+2024-05-07 18:40:14.341 - DBeaver shutdown completed

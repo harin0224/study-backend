@@ -169,6 +169,6 @@ CREATE TABLE member(
 
 );
 
-SELECT * FROM "MEMBER";
+SELECT * FROM "MEMBER" ;
 
 

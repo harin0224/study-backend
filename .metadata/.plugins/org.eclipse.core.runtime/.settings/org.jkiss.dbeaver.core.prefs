@@ -8,5 +8,5 @@ sample.database.canceled=true
 sql.format.keywordCase=UPPER
 sql.proposals.insert.table.alias=NONE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1714700519876
+ui.auto.update.check.time=1715051252395
 ui.show.tip.of.the.day.on.startup=true
