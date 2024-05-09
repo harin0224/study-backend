@@ -1,12 +1,16 @@
-package com.multi.jdbc.a_com;
+package com.multi.jdbc.b_basic.model.dao;
+
+import com.multi.jdbc.b_basic.model.dto.BoardDto;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class DBConnectOracle {
-    public static void main(String[] args) {
+public class BoardDao {
+    public BoardDto selectOne(int no){
+        System.out.println("BoardDao : selectOne no : " + no);
+        BoardDto rsDto = null;
         Connection con = null;  // 연결
         PreparedStatement ps = null;
 
@@ -28,22 +32,23 @@ public class DBConnectOracle {
             con.setAutoCommit(false);
             System.out.println("3. 오토커밋 설정 비활성화.");
 
-            String sql = "insert into MEMBER values (1, '안녕', 'win', 'win', sysdate)";
+            // sql문 만들기, prepareStatement 준비된 문장
+            String sql = "SELECT * FROM BBS WHERE NO = ?";
             ps = con.prepareStatement(sql);
+            // ? 에 입력할 순서대로 잘 매핑시키기
+            ps.setInt(1, no);
+
+
             System.out.println("4. sql문 객체 생성 성공");
             int result = ps.executeUpdate();    // 실행시키기, 수행된 row의 개수가 int 형으로 들어옴
 
-            String sql1 = "insert into MEMBER values (2, '안녕', 'win', 'win',  sysdate)";
-            ps = con.prepareStatement(sql1);
-            System.out.println("4. sql문 객체 생성 성공.");
-            int result2 = ps.executeUpdate();
 
             System.out.println("5. sql문 전송 성공, 결과1>> " + result);
-            System.out.println("5. sql문 전송 성공, 결과2>> " + result2);
+//            System.out.println("5. sql문 전송 성공, 결과2>> " + result2);
 
 
             // 트랜잭션 커밋
-            if (result >= 1 && result2 >= 1) {
+            if (result >= 1 ) { // && result2 >= 1
                 System.out.println("데이터 입력 완료");
                 con.commit();
                 System.out.println("6. 트랜잭션 커밋 완료.");
@@ -55,7 +60,7 @@ public class DBConnectOracle {
                 con.rollback();
             }
 
-        } catch (ClassNotFoundException | SQLException e) {
+        }catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
             if (con != null) {
                 try {
@@ -75,8 +80,11 @@ public class DBConnectOracle {
                 e.printStackTrace();
             }
         }
+
     }
 
+
+
+        return rsDto;
+    }
 }
-
-
