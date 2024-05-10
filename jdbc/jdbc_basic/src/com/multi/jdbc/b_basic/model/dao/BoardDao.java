@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class BoardDao {
-    public BoardDto selectOne(int no){
+    public BoardDto selectOne(int no) {
         System.out.println("BoardDao : selectOne no : " + no);
         BoardDto rsDto = null;
         Connection con = null;  // 연결
@@ -48,7 +48,7 @@ public class BoardDao {
 
 
             // 트랜잭션 커밋
-            if (result >= 1 ) { // && result2 >= 1
+            if (result >= 1) { // && result2 >= 1
                 System.out.println("데이터 입력 완료");
                 con.commit();
                 System.out.println("6. 트랜잭션 커밋 완료.");
@@ -60,7 +60,7 @@ public class BoardDao {
                 con.rollback();
             }
 
-        }catch (ClassNotFoundException | SQLException e) {
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
             if (con != null) {
                 try {
@@ -80,11 +80,11 @@ public class BoardDao {
                 e.printStackTrace();
             }
         }
-
-    }
-
-
-
         return rsDto;
+
     }
 }
+
+
+
+
