@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
+	<item id="MySQLPrivilegesEditor">
+		<column name="Privilege" visible="true" order="0" width="140"/>
+		<column name="Enabled" visible="true" order="1" width="100"/>
+		<column name="Description" visible="true" order="2" width="303"/>
+	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="설명" visible="true" order="1" width="100"/>
+		<column name="Origin" visible="true" order="2" width="100"/>
+		<column name="드라이버 유형" visible="true" order="3" width="100"/>
+	</item>
 	<item id="NodeList/OraclePrivRole">
 		<column name="Role" visible="true" order="0" width="100"/>
 		<column name="Admin Option" visible="true" order="1" width="100"/>
@@ -27,21 +38,25 @@
 		<column name="Comment" visible="true" order="6" width="100"/>
 	</item>
 	<item id="SchemaSelector">
-		<column name="Name" visible="true" order="0" width="130"/>
+		<column name="Schema Name" visible="true" order="0" width="100"/>
+		<column name="Default Charset" visible="true" order="1" width="100"/>
+		<column name="Default Collation" visible="true" order="2" width="103"/>
+		<column name="SQL Path" visible="true" order="3" width="100"/>
+		<column name="Database size" visible="true" order="4" width="100"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="62"/>
-		<column name="#" visible="true" order="1" width="29"/>
-		<column name="Type" visible="true" order="2" width="102"/>
+		<column name="컬럼명" visible="true" order="0" width="78"/>
+		<column name="#" visible="true" order="1" width="26"/>
+		<column name="Type" visible="true" order="2" width="99"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>
-		<column name="Not Null" visible="true" order="3" width="61"/>
-		<column name="디폴트" visible="true" order="4" width="52"/>
-		<column name="Comment" visible="true" order="5" width="70"/>
+		<column name="Not Null" visible="true" order="3" width="58"/>
+		<column name="디폴트" visible="true" order="4" width="49"/>
+		<column name="Comment" visible="true" order="5" width="67"/>
 	</item>
 	<item id="scriptSelectorViewer">
-		<column name="Script" visible="true" order="0" width="152"/>
-		<column name="Time" visible="true" order="1" width="193"/>
-		<column name="Info" visible="true" order="2" width="78"/>
-		<column name="Folder" visible="true" order="3" width="90"/>
+		<column name="Script" visible="true" order="0" width="203"/>
+		<column name="Time" visible="true" order="1" width="176"/>
+		<column name="Info" visible="true" order="2" width="61"/>
+		<column name="Folder" visible="true" order="3" width="73"/>
 	</item>
 </items>

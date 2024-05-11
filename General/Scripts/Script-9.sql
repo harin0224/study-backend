@@ -1,6 +1,6 @@
--- New script in localhost 2.
+-- New script in localhost.
 -- Connection Type: dev 
--- Url: jdbc:mysql://localhost:3306/
--- workspace : C:\Database
--- Date: 2024. 5. 7.
--- Time: 오전 9:23:44
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : D:\multicampus-workspace\03_database
+-- Date: 2024. 5. 10.
+-- Time: 오후 3:12:40

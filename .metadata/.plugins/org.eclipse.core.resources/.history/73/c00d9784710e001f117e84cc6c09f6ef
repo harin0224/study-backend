@@ -1,0 +1,6 @@
+-- New script in localhost 2.
+-- Connection Type: dev 
+-- Url: jdbc:mysql://localhost:3306/
+-- workspace : C:\Database
+-- Date: 2024. 5. 7.
+-- Time: 오전 9:23:44

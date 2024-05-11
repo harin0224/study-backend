@@ -1,0 +1,9 @@
+-- New script in localhost 9.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : D:\multicampus-workspace\03_database
+-- Date: 2024. 5. 8.
+-- Time: 오전 10:05:49
+
+SELECT * FROM EMP;
+SELECT ename, sal * 12 AS yearsal FROM EMP;

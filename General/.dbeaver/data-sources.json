@@ -86,27 +86,6 @@
 				"auth-model": "oracle_native"
 			}
 		},
-		"oracle_thin-18f3d28c3df-1895caf064da1940": {
-			"provider": "oracle",
-			"driver": "oracle_thin",
-			"name": "localhost 5",
-			"save-password": true,
-			"configuration": {
-				"host": "localhost",
-				"port": "1521",
-				"database": "XE",
-				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
-				"configurationType": "MANUAL",
-				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
-				"type": "dev",
-				"closeIdleConnection": true,
-				"provider-properties": {
-					"@dbeaver-connection-type@": "BASIC",
-					"@dbeaver-sid-service@": "SERVICE"
-				},
-				"auth-model": "oracle_native"
-			}
-		},
 		"oracle_thin-18f3d7a4458-3c072ddd3f2dcb2c": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
@@ -128,10 +107,10 @@
 				"auth-model": "oracle_native"
 			}
 		},
-		"oracle_thin-18f3d7bcf65-693190cdc88d6e2a": {
+		"oracle_thin-18f55bc0b40-190d3061b4307108": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
-			"name": "localhost 7",
+			"name": "system-localhost 9",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
@@ -149,10 +128,31 @@
 				"auth-model": "oracle_native"
 			}
 		},
-		"oracle_thin-18f3d7cc7b4-5fdae4d043706b62": {
+		"oracle_thin-18f55def496-55fc70b3de83bc4b": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
-			"name": "localhost 8",
+			"name": "localhost 10",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-18f612523c9-6072757ab2d12b1e": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "student-localhost 5",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
@@ -176,7 +176,7 @@
 			"name": "Development",
 			"color": "255,255,255",
 			"description": "Regular development database",
-			"auto-commit": false,
+			"auto-commit": true,
 			"confirm-execute": false,
 			"confirm-data-change": false,
 			"smart-commit": false,
