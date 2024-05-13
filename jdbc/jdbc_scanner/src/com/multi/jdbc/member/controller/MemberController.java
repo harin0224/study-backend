@@ -23,4 +23,19 @@ public class MemberController {
         }
 
     }
+
+    public void selectOne(String memberId) {
+        MemberMenu menu = new MemberMenu();
+        Member m = memberService.selectOne(memberId);
+
+        if(m!= null){
+            menu.displayMember(m);
+        }else{
+            menu.displayNoData();
+        }
+
+    }
+    public void insertMember(Member member) {
+        int result
+    }
 }

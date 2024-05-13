@@ -3,10 +3,7 @@ package com.multi.jdbc.member.model.dao;
 import com.multi.jdbc.member.model.dto.Member;
 import java.io.FileReader;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.Properties;
 
@@ -78,5 +75,51 @@ public class MemberDao {
             close(stmt);
         }
         return list;
+    }
+
+    public Member selectOne(Connection conn, String memberId) {
+        Member rsDto = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        String sql = prop.getProperty("selectOne");
+
+        try{
+            ps = conn.prepareStatement(sql);
+            ps.setString(1,memberId);
+        }
+
+
+    }
+
+    public int insertMember(Connection conn, Member member){
+        int result = 0;
+        PreparedStatement ps = null;
+
+        String sql = prop.getProperty("insertMember");
+
+        try{
+            ps = conn.prepareStatement(sql);
+            ps.setString(1,member.getUserId());
+            ps.setString(2, member.getPassword() );
+            ps.setString(3, member.getUserName() );
+            ps.setString(4, member.getGender() );
+            ps.setInt(5, member.getAge() );
+            ps.setString(6, member.getEmail() );
+            ps.setString(7, member.getPhone() );
+            ps.setString(8, member.getAddress() );
+            ps.setString(9, member.getHobby() );
+
+            result = ps.executeUpdate();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }finally {
+            {
+                close(ps);
+            }
+            return result;
+        }
+    }
+
+    public int updateMember(Connection conn, Member member) {
     }
 }

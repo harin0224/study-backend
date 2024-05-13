@@ -36,7 +36,7 @@ public class MemberMenu {
                     memberController.selectAll();
                     break;
                 case 2:
-               //     memberController.selectOne(inputMemberId());
+                    memberController.selectOne(inputMemberId());
                     break;
                 case 3:
                     //memberController.selectByName(inputMemberName());
@@ -78,12 +78,43 @@ public class MemberMenu {
         for(Member m: list) {
             System.out.println(m);
         }
-
     }
+
+    public void displayMember(Member m) {
+        System.out.println("\n조회된  회원정보는 다음과 같습니다.");
+        System.out.println("\n아이디\t이름\t성별\t나이\t이메일\t전화번호\t주소\t취미\t가입일");
+        System.out.println("----------------------------------------------------------");
+
+        System.out.println(m);
+    }
+
 
     public void displayNoData() {
         System.out.println("조회된 데이터가 없습니다.");
 
 
+    }
+
+    private String inputMemberId() {
+        System.out.println("아이디입력 : ");
+
+
+        return sc.next();
+    }
+
+    private Member updateMember() {
+        Member m = new Member();
+        m.setUserId(inputMemberId());
+        System.out.println("암호 : ");
+        m.setPassword(sc.next());
+        System.out.println("이메일 : ");
+        m.setEmail(sc.next());
+        System.out.println("전화번호(-빼고입력) : ");
+        m.setPhone(sc.next());
+        System.out.println("주소 : ");
+        sc.nextLine();//입력버퍼의 enter 키 제거
+        m.setAddress(sc.nextLine());
+
+        return m;
     }
 }
