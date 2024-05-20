@@ -10,7 +10,7 @@
                  -->
 
  <%
-    String title = request.getParameter("title"); //input안에 있는 name="id"에 입력한 데이터를 넣음
+    String title = request.getParameter("title");
     String content = request.getParameter("content");
     String writer = request.getParameter("writer");
     String category = request.getParameter("category");
@@ -42,5 +42,6 @@
 </head>
 <body>
 <%= resultText %>
+
 </body>
 </html>
