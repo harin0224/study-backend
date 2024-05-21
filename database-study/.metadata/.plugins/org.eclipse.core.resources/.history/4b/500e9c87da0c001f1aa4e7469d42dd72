@@ -1,0 +1,28 @@
+-- New script in localhost 9.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : D:\multicampus-workspace\03_database
+-- Date: 2024. 5. 8.
+-- Time: 오전 10:05:49
+
+SELECT * FROM EMP;
+SELECT ename, sal * 12 AS yearsal FROM EMP;
+
+SELECT * FROM emp WHERE deptno = 30 ORDER BY EMPNO DESC;
+
+/*@ 비교 연산자
+-> 표현식 사이의 관계를 비교하기 위해 사용하고, 비교 결과는 논리 결과중에 하나
+(TRUE/FALSE/NULL)가 됨
+-> 단, 비교하는 두 컬럼 값/표현식은 서로 동일한 데이터 타입이어야 함
+
+	연산자			설명
+	=			같다
+	>,<			크다/작다
+	>=,=<			크거나 같다/작거나 같다
+	<>,!=,^=		같지 않다
+	BETWEEN AND		특정 범위에 포함되는지 비교
+	LIKE / NOT LIKE		문자 패턴 비교
+	IS NULL / IS NOT NULL	NULL 여부 비교
+	IN / NOT IN		비교 값 목록에 포함/미포함 되는지 여부 비교
+	
+	* <> 작거나 크다 즉, 같지 않다!*/

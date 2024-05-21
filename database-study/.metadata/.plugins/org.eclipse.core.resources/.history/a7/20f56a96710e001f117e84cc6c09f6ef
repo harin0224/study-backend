@@ -1,0 +1,17 @@
+-- New script in localhost 2.
+-- Connection Type: dev 
+-- Url: jdbc:mysql://localhost:3306/
+-- workspace : C:\Database
+-- Date: 2024. 5. 7.
+-- Time: 오전 9:23:44
+
+USE scott;
+
+DROP TABLE MEMBER;
+CREATE TABLE MEMBER(
+	ID INT AUTO_INCREMENT PRIMARY KEY,
+	pw varchar(10),
+	name varchar(10),
+	tel varchar(10),
+	create_date timestamp
+);

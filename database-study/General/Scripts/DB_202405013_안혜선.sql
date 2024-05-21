@@ -1,0 +1,125 @@
+-- New script in system-localhost 9.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : D:\multicampus-workspace\03_database
+-- Date: 2024. 5. 17.
+-- Time: 오후 4:37:49
+
+-- 2. EMPLOYEE_ID70년대 생이면서 성별이 여자이고,
+--    성이 Cambrault씨인 직원들의 사원명, 사원번호 , 부서명, 직급명을 조회하시오.
+-- ANSI 표준
+SELECT 
+	FIRST_NAME || ' ' || LAST_NAME,	EMPLOYEE_ID,
+	d.DEPARTMENT_NAME,
+	j.JOB_TITLE
+FROM EMPLOYEES e
+LEFT JOIN DEPARTMENTS d ON e.DEPARTMENT_ID = d.DEPARTMENT_ID 
+LEFT JOIN JOBS j ON e.JOB_ID = j.JOB_ID 
+WHERE LAST_NAME = 'Cambrault';
+
+-- 3. 가장 급여가 적은 직원의 사번, 사원명,
+--    SAL, 부서명, 직급명을 조회하시오.
+-- ANSI 표준
+SELECT
+	EMPLOYEE_ID,
+	FIRST_NAME || ' ' || LAST_NAME, 
+	SALARY,
+	d.DEPARTMENT_NAME,
+	j.JOB_TITLE
+FROM EMPLOYEES e 
+LEFT JOIN DEPARTMENTS d ON d.DEPARTMENT_ID = d.DEPARTMENT_ID 
+LEFT JOIN JOBS j ON j.JOB_ID = j.JOB_ID  
+WHERE SALARY = (SELECT MIN(SALARY) FROM EMPLOYEES);
+
+-- 4. 이름에 'sa'자가 들어가는 직원들의
+-- 사번, 사원명, 부서명을 조회하시오.
+-- ANSI 표준
+SELECT 
+	EMPLOYEE_ID,
+	FIRST_NAME || ' ' || LAST_NAME,
+	d.DEPARTMENT_NAME
+FROM EMPLOYEES e 
+LEFT JOIN DEPARTMENTS d ON d.DEPARTMENT_ID = d.DEPARTMENT_ID
+WHERE (LOWER(e.FIRST_NAME) LIKE '%sa%') 
+OR (LOWER(e.LAST_NAME) LIKE '%sa%');  
+
+
+-- 5. IT팀에 근무하는 사원명,
+--    직급명, 부서코드, 부서명을 조회하시오.
+-- ANSI표준
+SELECT  
+	FIRST_NAME || ' ' || LAST_NAME,
+	j.JOB_TITLE,
+	d.DEPARTMENT_ID,
+	d.DEPARTMENT_NAME
+FROM EMPLOYEES e
+LEFT JOIN JOBS j ON e.JOB_ID = j.JOB_ID 
+LEFT JOIN DEPARTMENTS d ON e.DEPARTMENT_ID = d.DEPARTMENT_ID 
+WHERE d.DEPARTMENT_NAME = 'IT';
+
+
+-- 6. COMMISSION_PCT 를 받는 직원들의 사원명,
+--    COMMISSION_PCT , 부서명, 근무지역명을 조회하시오.
+-- ANSI 표준
+SELECT 
+	FIRST_NAME || ' ' || LAST_NAME,
+	COMMISSION_PCT,
+	d.DEPARTMENT_NAME,
+	l.CITY
+FROM EMPLOYEES e
+LEFT JOIN DEPARTMENTS d ON e.DEPARTMENT_ID = d.DEPARTMENT_ID 
+LEFT JOIN LOCATIONS l ON d.LOCATION_ID = l.LOCATION_ID 
+WHERE e.COMMISSION_PCT > 0;
+
+
+-- 7. 부서코드가 10인 직원들의 사원명,
+--    직급명, 부서명, 근무지역명을 조회하시오.
+-- ANSI 표준
+SELECT 
+	FIRST_NAME || ' ' || LAST_NAME,
+	j.JOB_TITLE,
+	d.DEPARTMENT_NAME,
+	l.CITY
+FROM EMPLOYEES e 
+LEFT JOIN JOBS j ON e.JOB_ID = j.JOB_ID 
+LEFT JOIN DEPARTMENTS d ON e.DEPARTMENT_ID = d.DEPARTMENT_ID
+LEFT JOIN LOCATIONS l ON d.LOCATION_ID = l.LOCATION_ID
+WHERE e.DEPARTMENT_ID=10; 
+
+-- 8.United States of America(US) Canada(CA)에 근무하는 직원들의
+--    사원명, 부서명, 지역명, 국가명을 조회하시오.
+-- ANSI 표준
+SELECT 
+	FIRST_NAME || ' ' || LAST_NAME,
+	d.DEPARTMENT_NAME,
+	l.CITY,
+	c.COUNTRY_NAME
+FROM EMPLOYEES A
+LEFT JOIN DEPARTMENTS d ON A.DEPARTMENT_ID = d.DEPARTMENT_ID
+LEFT JOIN LOCATIONS l ON d.LOCATION_ID = l.LOCATION_ID
+LEFT JOIN COUNTRIES c ON l.COUNTRY_ID = c.COUNTRY_ID
+WHERE l.COUNTRY_ID = 'US' OR l.COUNTRY_ID = 'CA'; 
+
+-- 9. 같은 부서에 근무하는 직원들의 사원명, 부서코드,
+--     동료이름을 조회하시오.self join 사용
+-- ANSI 표준
+SELECT 
+	e1.FIRST_NAME || ' ' || e1.LAST_NAME EMPLOYEE_NAME ,
+	e1.DEPARTMENT_ID ,
+	e2.FIRST_NAME || ' ' || e2.LAST_NAME COEMPLOYEE_NAME
+FROM EMPLOYEES e1
+INNER JOIN EMPLOYEES e2 ON e1.DEPARTMENT_ID = e2.DEPARTMENT_ID  
+WHERE e1.EMPLOYEE_ID != e2.EMPLOYEE_ID;
+
+-- 10. COMMISSION_PCT가 없는 직원들 중에서 직급코드가
+--     FI_ACCOUNT와 IT_PROG인 직원들의 사원명, 직급명, 급여를 조회하시오.
+--     단, join과 IN 사용할 것
+-- ANSI 표준
+SELECT 
+	FIRST_NAME || ' ' || LAST_NAME,
+	j.JOB_TITLE,
+	e.SALARY
+FROM EMPLOYEES e
+LEFT JOIN JOBS j ON e.JOB_ID = j.JOB_ID
+WHERE COMMISSION_PCT IS NULL 
+AND j.JOB_ID IN ('FI_ACCOUNT', 'IT_PROG'); 
