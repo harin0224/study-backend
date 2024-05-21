@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- 동시 실행은 고려되지 않았습니다. -->
+  <body>
+    <!-- 2번 문제 -->
+    <script type="text/javascript" src="js/out2.js"></script>
+    <script>
+      // 1-1번 문제
+      for (let i = 0; i < 3; i++) {
+        alert("@@@");
+      }
+
+      // 1-2번 문제
+      let site = window.prompt("당신이 주로 가는 포털 사이트는?");
+      let link;
+      if (site == "naver") {
+        link = "https://www.naver.com";
+      } else if (site == "daum") {
+        link = "https://www.daum.net";
+      } else {
+        link = "https://www.google.com";
+      }
+      window.open(link);
+
+      // 2번 문제
+      let play = window.confirm("놀래요?");
+      if (play) {
+        여행하다();
+      } else 쉬다();
+
+      // 3번 문제
+      let programmer = window.confirm("당신은 자바 프로그래머인가요?");
+      if (programmer) {
+        alert("훌륭한 웹프로그래머시군요");
+      } else {
+        alert("다른 언어를 사용하시는군요!");
+      }
+
+      // 5번 문제
+      let coffee = parseInt(window.prompt("커피값은?"));
+      let cup = parseInt(window.prompt("몇 잔 구매?"));
+      let sum = coffee * cup;
+      alert(sum);
+
+      // 6번 문제
+      let food = window.prompt("먹고싶은 음식은?");
+      let prise = parseInt(window.prompt("가격"));
+      if (food == "커피" && prise < 5000) alert("내가 살게요");
+      else alert("네가 사세요");
+
+      // 7번 문제
+      let day = window.prompt("지금은 오전인가요, 오후인가요?");
+      if (day == "오전") {
+        for (let i = 0; i < 3; i++) {
+          alert("굿모닝!");
+        }
+      } else if (day == "오후") {
+        for (let i = 0; i < 5; i++) {
+          alert("굿 에프터눈!");
+        }
+      } else
+        for (let i = 0; i < 10; i++) {
+          alert("굿나잇!");
+        }
+      // 8번 문제
+      for (let i = 0; i < 1000; i++) console.log(i);
+
+      // 9번 문제
+      for (let i = 100; i <= 200; i++) console.log(i);
+
+      // 10번 문제
+      function fight() {
+        alert("파이팅!!");
+      }
+      function bye() {
+        alert("잘가!! 안녕!!");
+      }
+      // 11번 문제
+      function hundred() {
+        for (let i = 1; i <= 100; i++) {
+          console.log(i);
+        }
+      }
+    </script>
+
+    <!-- 10번 문제-->
+    <button onclick="fight()">파이팅</button>
+    <button onclick="bye()">잘가</button>
+
+    <!-- 11번 문제-->
+    <button onclick="hundred()">go 100</button>
+  </body>
+</html>

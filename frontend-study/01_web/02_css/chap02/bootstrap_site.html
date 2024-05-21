@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      div {
+        font-family: "Nanum Pen Script", cursive, 궁서;
+        font-size: 25px;
+      }
+
+      #center {
+        height: 500px;
+        padding: 30px;
+        font-size: 20px;
+      }
+
+      #top2 {
+        background-color: black;
+        color: yellow;
+        border-radius: 100px 10px;
+        width: 250px;
+        height: 100px;
+        position: fixed;
+        top: 5px;
+        right: 5px;
+
+        display: flex;
+        align-items: center; /*수직방향으로 정렬*/
+        justify-content: center; /*수평방향으로 정렬*/
+      }
+      /*미디어 쿼리, 화면이 768px 이하일 때 적용할 최소 사이즈 => 화면이 작아지면 스크롤이 생김*/
+      @media (max-width: 768px) {
+        #total {
+          min-width: 600px;
+        }
+
+        #top,
+        #center {
+          display: flex;
+          justify-content: left;
+        }
+
+        #top2 {
+          background-color: transparent; /*작아지면 투명해짐*/
+          color: black;
+          border-radius: 100px 10px;
+          position: fixed;
+          top: 50px;
+          right: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="total">
+      <div id="top">
+        <ul>
+          <li>
+            <a href="bootstrap_site.html"> Home</a>
+          </li>
+          <li>
+            <a href="member.html">회원가입</a>
+          </li>
+          <li>
+            <a href="product.html">제품정보</a>
+          </li>
+          <li>
+            <a href="bbs.html">게시판</a>
+          </li>
+          <li>
+            <a href="basket.html">장바구니</a>
+          </li>
+        </ul>
+      </div>
+      <div id="top2">장바구니에 담긴 물품수</div>
+      <div id="center">내용</div>
+    </div>
+    <div id="total">
+      <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="bootstrap_site.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="member.html">회원가입</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">제품정보</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="bbs.html">게시판</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="basket.html">장바구니</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container my-4">
+        <div id="top2">장바구니에 담긴 물품수</div>
+        <div id="center" class="mt-3 p-3 bg-secondary text-white">내용</div>
+      </div>
+    </div>
+  </body>
+</html>
