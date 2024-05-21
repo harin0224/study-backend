@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b02a62eb-227d-4a73-8171-0ccb72624681" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/0.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/dbeaver-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/dbeaver-debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/dbeaver-instance.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/dbeaver-workspace.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/dbeaver-workspace.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/.credentials-config.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/.credentials-config.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/.data-sources.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/.data-sources.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/credentials-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/credentials-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/data-sources.json" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/data-sources.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jsp02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Servlet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2giDkzDWX6MdIAMrCAqdkgSnevN" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.jsp03 [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.jsp03.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/multicampus-workspace/04_servletjsp/itj/jsp03/src/main/webapp",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\multicampus-workspace\04_servletjsp\itj\jsp03\src\main\webapp" />
+      <recent name="D:\multicampus-workspace\04_servletjsp\itj\jsp03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\multicampus-workspace\04_servletjsp\itj\jsp03\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.multi.servlet.e_practice" />
+      <recent name="com.multi.servlet.d_redirect" />
+      <recent name="com.multi.servlet.b_lifecycle" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="jsp03" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="adminPort" value="8006" />
+      <option name="catalinaBase" value="C:\Users\21928199\.SmartTomcat\jsp03\jsp03" />
+      <option name="contextPath" value="/jsp03" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8084" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.86" />
+          <option name="path" value="C:/apache-tomcat-9.0.86" />
+          <option name="version" value="9.0.86.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="jsp03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="b02a62eb-227d-4a73-8171-0ccb72624681" name="변경" comment="" />
+      <created>1716171658066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716171658066</updated>
+    </task>
+    <servers />
+  </component>
+</project>
