@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a048b2ae-c1c3-4abd-a5ae-ba5420cf48ed" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.config/drivers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.config/drivers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/0.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/dbeaver-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/dbeaver-debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/dbeaver-instance.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/dbeaver-workspace.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/dbeaver-workspace.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/.credentials-config.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/.credentials-config.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/.data-sources.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/.data-sources.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/.project-metadata.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/.project-metadata.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/credentials-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/credentials-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/data-sources.json" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/data-sources.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/project-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/project-metadata.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2goIpQA5GylV7YHTXbWrqdBnuVe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.jsp06.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/multicampus-workspace/04_servletjsp/itj/jsp06/src/main/webapp/chap01&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\multicampus-workspace\04_servletjsp\itj\jsp06\src\main\webapp\chap01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\multicampus-workspace\04_servletjsp\itj\jsp06\src\main\webapp\views\jstl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="jsp06" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\21928199\.SmartTomcat\jsp06\jsp06" />
+      <option name="contextPath" value="/jsp06" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8087" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.86" />
+          <option name="path" value="C:/apache-tomcat-9.0.86" />
+          <option name="version" value="9.0.86.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="jsp06" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="a048b2ae-c1c3-4abd-a5ae-ba5420cf48ed" name="변경" comment="" />
+      <created>1716357686960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716357686960</updated>
+    </task>
+    <servers />
+  </component>
+</project>

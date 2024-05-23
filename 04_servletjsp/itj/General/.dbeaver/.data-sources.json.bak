@@ -1,7 +1,7 @@
 {
 	"folders": {},
 	"connections": {
-		"oracle_thin-18f85330cc4-5675a36fd5a34534": {
+		"oracle_thin-18f85335347-28a4660c2894daa5": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
 			"name": "ORCL",
@@ -20,6 +20,22 @@
 					"@dbeaver-sid-service@": "SERVICE"
 				},
 				"auth-model": "oracle_native"
+			}
+		},
+		"mysql8-18f85355d93-de9e15e653cb405": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "mysql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
 			}
 		}
 	},

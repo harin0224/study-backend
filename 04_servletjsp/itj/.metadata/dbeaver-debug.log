@@ -1,0 +1,1220 @@
+2024-05-23 09:46:04.461 - DBeaver 24.0.3.202404211624 is starting
+2024-05-23 09:46:04.461 - OS: Windows 10 10.0 (amd64)
+2024-05-23 09:46:04.461 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-05-23 09:46:04.461 - Install path: 'C:\Users\21928199\AppData\Local\DBeaver'
+2024-05-23 09:46:04.462 - Instance path: 'file:/D:/multicampus-workspace/04_servletjsp/itj/'
+2024-05-23 09:46:04.462 - Memory available 64Mb/1024Mb
+2024-05-23 09:46:04.467 - Create display
+2024-05-23 09:46:04.518 - Initialize desktop platform...
+2024-05-23 09:46:04.585 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
+2024-05-23 09:46:04.673 - Initialize base platform...
+2024-05-23 09:46:04.686 - Platform initialized (168ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
+2024-05-23 09:46:04.737 - Starting instance server at http://localhost:56975
+2024-05-23 09:46:04.741 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
+2024-05-23 09:46:05.567 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
+2024-05-23 09:46:05.635 - Total database drivers: 112 (112)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
+2024-05-23 09:46:05.675 - Create actions
+2024-05-23 09:46:05.679 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-05-23 09:46:05.679 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-05-23 09:46:05.679 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-05-23 09:46:05.679 - Create workbench actions
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+2024-05-23 09:46:05.962 - Initialize workbench window
+2024-05-23 09:46:05.967 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.129.202404211624]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.105.202404211624]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.200.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.166.202404211624]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.135.202404211624]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.89.202404211624]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.89.202404211624]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.126.202404211624]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.2.202404211624]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
+> Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+2024-05-23 09:46:07.292 - Connect with 'localhost' (mysql8-18f85355d93-de9e15e653cb405)
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.214.202404211624]
+2024-05-23 09:46:07.308 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.153.202404211624]
+2024-05-23 09:46:07.394 - Public Key Retrieval is not allowed
+org.jkiss.dbeaver.model.exec.DBCConnectException: Public Key Retrieval is not allowed
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:265)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:481)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:121)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:116)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:154)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	... 16 more
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:131)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:446)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:215)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1428)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
+	... 22 more
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.121.202404211624]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
+2024-05-23 09:46:13.793 - Connect with 'ORCL' (oracle_thin-18f85335347-28a4660c2894daa5)
+2024-05-23 09:46:13.797 - Execution context opened (ORCL; Main; 1)
+5월 23, 2024 9:46:13 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-37 DBeaver: Loading entering args (oracle.jdbc.internal.AbstractConnectionBuilder$1@21c789fa)
+5월 23, 2024 9:46:13 오전 oracle.net.ns.NSProtocol connect
+정보: U:thread-37 DBeaver: Loading traceId=37535F08. 
+5월 23, 2024 9:46:13 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-37 DBeaver: Loading Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 9:46:13 오전 oracle.net.ns.NSProtocol configureSessionAttsAno
+정보: U:thread-37 DBeaver: Loading traceId=37535F08, anoEnabled=true. 
+5월 23, 2024 9:46:13 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-37 DBeaver: Loading Got Refused, SessionTraceId = 37535F08
+5월 23, 2024 9:46:13 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-37 DBeaver: Loading Outbound interrupt timer cancelled null
+5월 23, 2024 9:46:13 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-37 DBeaver: Loading Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 9:46:13 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-37 DBeaver: Loading Got Refused, SessionTraceId = 37535F08
+5월 23, 2024 9:46:13 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-37 DBeaver: Loading Outbound interrupt timer cancelled null
+5월 23, 2024 9:46:13 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-37 DBeaver: Loading throwing
+java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=brqtv/+rRVmrbDwmk+vEVw==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:109)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:117)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:87)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2505)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:158)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:227)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:91)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:89)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:73)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=brqtv/+rRVmrbDwmk+vEVw==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 34 more
+
+2024-05-23 09:46:13.937 - ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=brqtv/+rRVmrbDwmk+vEVw==)
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=brqtv/+rRVmrbDwmk+vEVw==)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:265)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:109)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:117)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:87)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2505)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:158)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:227)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:91)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:89)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:73)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=brqtv/+rRVmrbDwmk+vEVw==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	... 27 more
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=brqtv/+rRVmrbDwmk+vEVw==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 34 more
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.116.202404211624]
+2024-05-23 09:46:20.903 - Auth model 'native' was replaced by 'oracle_native'
+2024-05-23 09:46:20.914 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-05-23 09:46:27.611 - Connect with 'jdbc:oracle:thin:@//localhost:1521/ORCL' (oracle_thin-18fa2e9e0ff-72bbd306454b9002)
+2024-05-23 09:46:27.612 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/ORCL; Main; 2)
+5월 23, 2024 9:46:26 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-42 Connect to 'Oracle' entering args (oracle.jdbc.internal.AbstractConnectionBuilder$1@687b858)
+5월 23, 2024 9:46:26 오전 oracle.net.ns.NSProtocol connect
+정보: U:thread-42 Connect to 'Oracle' traceId=283F9BA. 
+5월 23, 2024 9:46:26 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-42 Connect to 'Oracle' Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 9:46:26 오전 oracle.net.ns.NSProtocol configureSessionAttsAno
+정보: U:thread-42 Connect to 'Oracle' traceId=283F9BA, anoEnabled=true. 
+5월 23, 2024 9:46:26 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-42 Connect to 'Oracle' Got Refused, SessionTraceId = 283F9BA
+5월 23, 2024 9:46:26 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-42 Connect to 'Oracle' Outbound interrupt timer cancelled null
+5월 23, 2024 9:46:26 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-42 Connect to 'Oracle' Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 9:46:26 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-42 Connect to 'Oracle' Got Refused, SessionTraceId = 283F9BA
+5월 23, 2024 9:46:26 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-42 Connect to 'Oracle' Outbound interrupt timer cancelled null
+5월 23, 2024 9:46:26 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-42 Connect to 'Oracle' throwing
+java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=cTgNcvSbSciXC30axSju6A==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=cTgNcvSbSciXC30axSju6A==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 23 more
+
+2024-05-23 09:46:27.682 - ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=cTgNcvSbSciXC30axSju6A==)
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=cTgNcvSbSciXC30axSju6A==)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:265)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=cTgNcvSbSciXC30axSju6A==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	... 16 more
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=cTgNcvSbSciXC30axSju6A==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 23 more
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.113.202404211624]
+2024-05-23 09:46:32.399 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-05-23 09:48:35.166 - Connect with 'ORCL' (oracle_thin-18f85335347-28a4660c2894daa5)
+2024-05-23 09:48:35.166 - Execution context opened (ORCL; Main; 3)
+5월 23, 2024 9:48:34 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-57 Connect to 'ORCL' entering args (oracle.jdbc.internal.AbstractConnectionBuilder$1@47c3a4a)
+5월 23, 2024 9:48:34 오전 oracle.net.ns.NSProtocol connect
+정보: U:thread-57 Connect to 'ORCL' traceId=15469F43. 
+5월 23, 2024 9:48:34 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-57 Connect to 'ORCL' Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 9:48:34 오전 oracle.net.ns.NSProtocol configureSessionAttsAno
+정보: U:thread-57 Connect to 'ORCL' traceId=15469F43, anoEnabled=true. 
+5월 23, 2024 9:48:34 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-57 Connect to 'ORCL' Got Refused, SessionTraceId = 15469F43
+5월 23, 2024 9:48:34 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-57 Connect to 'ORCL' Outbound interrupt timer cancelled null
+5월 23, 2024 9:48:34 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-57 Connect to 'ORCL' Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 9:48:34 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-57 Connect to 'ORCL' Got Refused, SessionTraceId = 15469F43
+5월 23, 2024 9:48:34 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-57 Connect to 'ORCL' Outbound interrupt timer cancelled null
+5월 23, 2024 9:48:34 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-57 Connect to 'ORCL' throwing
+java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=/AUpNYNOQuCI3q6GC63eSQ==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=/AUpNYNOQuCI3q6GC63eSQ==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 22 more
+
+2024-05-23 09:48:35.183 - ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=/AUpNYNOQuCI3q6GC63eSQ==)
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=/AUpNYNOQuCI3q6GC63eSQ==)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:265)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=/AUpNYNOQuCI3q6GC63eSQ==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	... 15 more
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=/AUpNYNOQuCI3q6GC63eSQ==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 22 more
+2024-05-23 09:52:38.116 - Auth model 'native' was replaced by 'oracle_native'
+2024-05-23 09:52:38.127 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+> Start DBeaver SSH tunnels UI [org.jkiss.dbeaver.net.ssh.ui 1.0.150.202404211624]
+> Start DBeaver SSH Tunnels [org.jkiss.dbeaver.net.ssh 1.0.150.202404211624]
+2024-05-23 09:52:50.908 - Connect with 'jdbc:oracle:thin:@//localhost:1521/ORCL' (oracle_thin-18fa2efba3b-6589927e1f2f6f8)
+2024-05-23 09:52:50.909 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/ORCL; Main; 4)
+5월 23, 2024 9:52:50 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-61 Connect to 'Oracle' entering args (oracle.jdbc.internal.AbstractConnectionBuilder$1@47949896)
+5월 23, 2024 9:52:50 오전 oracle.net.ns.NSProtocol connect
+정보: U:thread-61 Connect to 'Oracle' traceId=6201A502. 
+5월 23, 2024 9:52:50 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-61 Connect to 'Oracle' Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 9:52:50 오전 oracle.net.ns.NSProtocol configureSessionAttsAno
+정보: U:thread-61 Connect to 'Oracle' traceId=6201A502, anoEnabled=true. 
+5월 23, 2024 9:52:50 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-61 Connect to 'Oracle' Got Refused, SessionTraceId = 6201A502
+5월 23, 2024 9:52:50 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-61 Connect to 'Oracle' Outbound interrupt timer cancelled null
+5월 23, 2024 9:52:50 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-61 Connect to 'Oracle' Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 9:52:50 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-61 Connect to 'Oracle' Got Refused, SessionTraceId = 6201A502
+5월 23, 2024 9:52:50 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-61 Connect to 'Oracle' Outbound interrupt timer cancelled null
+5월 23, 2024 9:52:50 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-61 Connect to 'Oracle' throwing
+java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=5g5oJuaNTbmcnA1kaRWzgw==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=5g5oJuaNTbmcnA1kaRWzgw==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 23 more
+
+2024-05-23 09:52:50.975 - ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=5g5oJuaNTbmcnA1kaRWzgw==)
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=5g5oJuaNTbmcnA1kaRWzgw==)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:265)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=5g5oJuaNTbmcnA1kaRWzgw==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	... 16 more
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=5g5oJuaNTbmcnA1kaRWzgw==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 23 more
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
+2024-05-23 09:54:59.642 - Connect with 'localhost' (mysql8-18f85355d93-de9e15e653cb405)
+2024-05-23 09:54:59.642 - Execution context opened (localhost; Main; 5)
+2024-05-23 09:54:59.649 - Public Key Retrieval is not allowed
+org.jkiss.dbeaver.model.exec.DBCConnectException: Public Key Retrieval is not allowed
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:265)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:481)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:121)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:116)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:154)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	... 16 more
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:131)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:446)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:215)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1428)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
+	... 22 more
+2024-05-23 09:56:13.273 - Connect with 'localhost' (mysql8-18f85355d93-de9e15e653cb405)
+2024-05-23 09:56:13.273 - Execution context opened (localhost; Main; 6)
+2024-05-23 09:56:13.275 - Public Key Retrieval is not allowed
+org.jkiss.dbeaver.model.exec.DBCConnectException: Public Key Retrieval is not allowed
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:265)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:481)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:121)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:116)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:154)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:109)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:117)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:87)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2505)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:158)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:227)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:91)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:89)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:73)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	... 28 more
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:131)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:446)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:215)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1428)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
+	... 34 more
+2024-05-23 09:56:19.038 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-05-23 09:56:27.370 - Connect with 'jdbc:mysql://localhost:3306/' (mysql8-18fa2f307d6-41b4e32ac73cb85c)
+2024-05-23 09:56:27.371 - Execution context opened (jdbc:mysql://localhost:3306/; Main; 7)
+2024-05-23 09:56:27.433 - Public Key Retrieval is not allowed
+org.jkiss.dbeaver.model.exec.DBCConnectException: Public Key Retrieval is not allowed
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:265)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:481)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:121)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:116)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:154)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	... 17 more
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:131)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:446)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:215)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1428)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
+	... 23 more
+2024-05-23 09:57:11.731 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-05-23 09:57:55.237 - Connect with 'localhost' (mysql8-18f85355d93-de9e15e653cb405)
+2024-05-23 09:57:55.238 - Execution context opened (localhost; Main; 8)
+2024-05-23 09:57:55.274 - Execution context opened (localhost; Metadata; 9)
+2024-05-23 09:57:55.320 - Connected (mysql8-18f85355d93-de9e15e653cb405, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-05-23 09:57:55.321 - Execution context opened (localhost; SQLEditor <Script.sql>; 10)
+2024-05-23 09:57:55.340 - Execution context opened (localhost; SQLEditor <Script-2.sql>; 11)
+2024-05-23 09:58:17.793 - SQL Error [3730] [HY000]: Cannot drop table 'member' referenced by a foreign key constraint 'board_ibfk_2' on table 'board'.
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [3730] [HY000]: Cannot drop table 'member' referenced by a foreign key constraint 'board_ibfk_2' on table 'board'.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Cannot drop table 'member' referenced by a foreign key constraint 'board_ibfk_2' on table 'board'.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 09:58:27.025 - SQL Error [1050] [42S01]: Table 'member' already exists
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: Table 'member' already exists
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'member' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 09:58:34.577 - SQL Error [3730] [HY000]: Cannot drop table 'member' referenced by a foreign key constraint 'board_ibfk_2' on table 'board'.
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [3730] [HY000]: Cannot drop table 'member' referenced by a foreign key constraint 'board_ibfk_2' on table 'board'.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Cannot drop table 'member' referenced by a foreign key constraint 'board_ibfk_2' on table 'board'.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:00:25.924 - SQL Error [1050] [42S01]: Table 'category' already exists
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: Table 'category' already exists
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'category' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:00:43.195 - SQL Error [3730] [HY000]: Cannot drop table 'category' referenced by a foreign key constraint 'board_ibfk_1' on table 'board'.
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [3730] [HY000]: Cannot drop table 'category' referenced by a foreign key constraint 'board_ibfk_1' on table 'board'.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Cannot drop table 'category' referenced by a foreign key constraint 'board_ibfk_1' on table 'board'.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:00:49.305 - SQL Error [1062] [23000]: Duplicate entry '10' for key 'category.PRIMARY'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1062] [23000]: Duplicate entry '10' for key 'category.PRIMARY'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '10' for key 'category.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+2024-05-23 10:00:57.557 - SQL Error [3730] [HY000]: Cannot drop table 'category' referenced by a foreign key constraint 'board_ibfk_1' on table 'board'.
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [3730] [HY000]: Cannot drop table 'category' referenced by a foreign key constraint 'board_ibfk_1' on table 'board'.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Cannot drop table 'category' referenced by a foreign key constraint 'board_ibfk_1' on table 'board'.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:02:18.821 - SQL Error [1051] [42S02]: Unknown table 'scott.product'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1051] [42S02]: Unknown table 'scott.product'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown table 'scott.product'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:02:43.616 - SQL Error [1824] [HY000]: Failed to open the referenced table 'company'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1824] [HY000]: Failed to open the referenced table 'company'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Failed to open the referenced table 'company'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:03:56.514 - SQL Error [1051] [42S02]: Unknown table 'scott.attachment'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1051] [42S02]: Unknown table 'scott.attachment'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown table 'scott.attachment'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:04:06.602 - SQL Error [1824] [HY000]: Failed to open the referenced table 'company'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1824] [HY000]: Failed to open the referenced table 'company'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Failed to open the referenced table 'company'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:04:48.413 - Execution context closed (localhost, 11)
+2024-05-23 10:05:05.034 - No active connection
+2024-05-23 10:05:10.262 - Execution context opened (localhost; SQLEditor <jsp_mysql.sql>; 12)
+2024-05-23 10:05:15.154 - SQL Error [1046] [3D000]: No database selected
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1046] [3D000]: No database selected
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: No database selected
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:05:19.629 - SQL Error [1046] [3D000]: No database selected
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1046] [3D000]: No database selected
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: No database selected
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:05:25.745 - SQL Error [1051] [42S02]: Unknown table 'scott.attachment'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1051] [42S02]: Unknown table 'scott.attachment'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown table 'scott.attachment'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:05:30.078 - SQL Error [1824] [HY000]: Failed to open the referenced table 'product'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1824] [HY000]: Failed to open the referenced table 'product'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Failed to open the referenced table 'product'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-23 10:05:54.578 - Connect with 'ORCL' (oracle_thin-18f85335347-28a4660c2894daa5)
+2024-05-23 10:05:54.579 - Execution context opened (ORCL; Main; 13)
+5월 23, 2024 10:05:53 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-63 DBeaver: Loading entering args (oracle.jdbc.internal.AbstractConnectionBuilder$1@3629dee8)
+5월 23, 2024 10:05:53 오전 oracle.net.ns.NSProtocol connect
+정보: U:thread-63 DBeaver: Loading traceId=5C153FF9. 
+5월 23, 2024 10:05:53 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-63 DBeaver: Loading Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 10:05:53 오전 oracle.net.ns.NSProtocol configureSessionAttsAno
+정보: U:thread-63 DBeaver: Loading traceId=5C153FF9, anoEnabled=true. 
+5월 23, 2024 10:05:53 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-63 DBeaver: Loading Got Refused, SessionTraceId = 5C153FF9
+5월 23, 2024 10:05:53 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-63 DBeaver: Loading Outbound interrupt timer cancelled null
+5월 23, 2024 10:05:53 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-63 DBeaver: Loading Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+5월 23, 2024 10:05:53 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-63 DBeaver: Loading Got Refused, SessionTraceId = 5C153FF9
+5월 23, 2024 10:05:53 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-63 DBeaver: Loading Outbound interrupt timer cancelled null
+5월 23, 2024 10:05:53 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-63 DBeaver: Loading throwing
+java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=f9VH8sJMTTG7J4TKHdfGHg==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:109)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:117)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:87)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2505)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:158)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:227)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:91)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:89)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:73)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=f9VH8sJMTTG7J4TKHdfGHg==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 34 more
+
+2024-05-23 10:05:54.589 - ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=f9VH8sJMTTG7J4TKHdfGHg==)
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=f9VH8sJMTTG7J4TKHdfGHg==)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:265)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:109)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:117)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:87)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2505)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:158)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:227)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:91)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:89)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:73)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=f9VH8sJMTTG7J4TKHdfGHg==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	... 27 more
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=f9VH8sJMTTG7J4TKHdfGHg==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 34 more
+2024-05-23 14:08:26.971 - Execution context closed (localhost, 8)
+2024-05-23 14:08:26.987 - Execution context closed (localhost, 9)
+2024-05-23 14:08:26.998 - Execution context closed (localhost, 10)
+2024-05-23 14:08:27.009 - Execution context closed (localhost, 12)
+2024-05-23 14:08:27.009 - Disconnected (mysql8-18f85355d93-de9e15e653cb405)
+2024-05-23 16:48:46.225 - DBeaver is stopping
+2024-05-23 16:48:46.225 - Stop instance server
+2024-05-23 16:48:47.228 - Instance server has been stopped
+2024-05-23 16:48:47.229 - DBeaver shutdown completed
