@@ -4,13 +4,13 @@
 		"oracle_thin-18f85335347-28a4660c2894daa5": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
-			"name": "ORCL",
+			"name": "localhost",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "1521",
-				"database": "ORCL",
-				"url": "jdbc:oracle:thin:@//localhost:1521/ORCL",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
 				"configurationType": "MANUAL",
 				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
 				"type": "dev",
