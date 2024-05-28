@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a048b2ae-c1c3-4abd-a5ae-ba5420cf48ed" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.config/drivers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.config/drivers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/0.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.jkiss.dbeaver.core/column_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/dbeaver-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/dbeaver-debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/dbeaver-instance.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/dbeaver-workspace.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/dbeaver-workspace.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/.credentials-config.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/.credentials-config.json.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/.data-sources.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/.data-sources.json.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/.project-metadata.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/.project-metadata.json.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/credentials-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/credentials-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/data-sources.json" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/data-sources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../General/.dbeaver/project-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../General/.dbeaver/project-metadata.json" afterDir="false" />
-    </list>
+    <list default="true" id="a048b2ae-c1c3-4abd-a5ae-ba5420cf48ed" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
