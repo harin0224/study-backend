@@ -138,3 +138,15 @@ CREATE TABLE ATTACHMENT (
 );
 
 SELECT * FROM attachment ;
+
+
+ create table movie(
+ 	movie_id int auto_increment primary key,
+ 	title varchar(100) not null,
+ 	img varchar(100) null,
+ 	genre varchar(100) not null,
+ 	running_time varchar(100) null,
+ 	link varchar(300) not null 
+ );
+ 
+

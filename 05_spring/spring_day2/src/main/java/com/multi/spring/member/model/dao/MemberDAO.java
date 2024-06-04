@@ -30,4 +30,8 @@ public class MemberDAO {
 		return sqlSession.selectOne("memberMapper.selectMember", id);
 	}
 
+	public MemberDTO loginMember(SqlSessionTemplate sqlSession, MemberDTO m) {
+		return sqlSession.selectOne("memberMapper.selectMember", m);
+	}
+
 }
