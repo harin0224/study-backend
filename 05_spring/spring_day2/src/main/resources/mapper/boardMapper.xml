@@ -1,54 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="memberMapper">
-	<insert id="insertBoard" parameterType="boardDTO"  
-	useGeneratedKeys="true"
-    keyProperty="title">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-		insert into board (no, title, content, writer)
-		values (#{no}, #{title}, #{content}, #{writer})
-	</insert>
-	<update id="updateMember" parameterType="memberDTO">
-		update member 
-		set tel = #{tel}
-		where id = #{id}
-	</update>
-	<select id="selectMember" parameterType="String" resultType="memberDTO">
-		select * from board
-		where id = #{id}
-	</select>
-	<select id="count" parameterType="String" resultType="int">
-		select count(id) from board
-		where name = ${name}
-	</select>
-	<select id="selectList" resultType="memberDTO">
-		select * from board
-	</select>
-		<!-- 	update member
-		set status='N'
-		where user_id=#{userId}-->
+<mapper namespace="boardMapper">
 	
-	<delete id="deleteMember" parameterType="String"> 
-		delete from member where id = #{id} 
-	</delete>
-	<select id="loginMember" parameterType="memberDTO" resultType="memberDTO">
-		<!--  암호화 전 -->
-		select * from board 
-		where id = #{id} and pw = #{pw}
+	<select id="selectlistBoard" resultType="boardDTO">
+		<!-- select * from bbs -->
+		select  rownum, no, title, content, writer from (
+		select ROW_NUMBER() over(order by no desc) as rownum, b.*
+		from board b) bbs2
+		where bbs2.rownum between 10 and 15
 		
-		<!-- 암호화 후  select * from memberwhere user_id=#{userId}  and status='Y' 예외테스트
-		select * from member 
-		where user_id=#{userId}  and status='Y'-->
+		<!-- select * from bbs -->
+		
+	</select>
+	
+	<select id="selectAll" resultType="boardDTO"  parameterType="pageDTO">
+		select rownum, no, title, content, writer from (
+		select ROW_NUMBER() over(order by no desc) as rownum, b.*
+		from board b) bbs2
+		where bbs2.rownum between ${start} and ${end}
+
+	
+<!-- 		mysql 5.5
+			select 
+				@row_number:=@row_number+1 as rownum, b.*
+			from
+				(select @row_number:=0) as r, bbs b
+				order by id desc
+				limit 10 offset ${start} 
+-->
+	</select>
+
+	<select id="selectlistBoard2" resultType="boardDTO" parameterType="pageDTO">
+		select  rownum, no, title, content, writer
+		from (
+		select ROW_NUMBER() over(order by no desc) as rownum, b.*
+		from board b) bbs2
+		where bbs2.rownum between #{start} and #{end}
+	</select>
+
+	<select id="selectCount" resultType="Integer">
+		select count(*) count from board
 	</select>
 </mapper>
-
-
-
-
-
-
-
-
-
-
-

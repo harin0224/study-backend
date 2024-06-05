@@ -1,4 +1,4 @@
-package com.uni.spring.book.model.dto;
+package com.multi.spring.book.model.dto;
 
 public class BookDTO {
 	private int id;

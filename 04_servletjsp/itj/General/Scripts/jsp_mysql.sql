@@ -148,5 +148,17 @@ SELECT * FROM attachment ;
  	running_time varchar(100) null,
  	link varchar(300) not null 
  );
+
+
+create table song(
+	num int auto_increment primary key,
+	title varchar(100) not null,
+	name varchar(100) not null,
+	genre varchar(100) not null
+);
+
+select * from song;
+
+
  
 

@@ -1,6 +1,6 @@
-package com.multi.spring.movie.model.dto;
+package com.multi.spring.food.model.dto;
 
-public class MovieDTO {
+public class FoodDTO {
 	private int movieId;
 	private String title;
 	private String img;
