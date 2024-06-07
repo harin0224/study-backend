@@ -159,6 +159,24 @@ create table song(
 
 select * from song;
 
+ CREATE TABLE REPLY (
+    ID int auto_increment primary key,
+    ORIID int,
+    CONTENT VARCHAR(500),
+    WRITER VARCHAR (10) NOT NULL,
+     FOREIGN KEY (ORIID) REFERENCES BOARD(NO),
+     FOREIGN KEY (WRITER) REFERENCES MEMBER(ID)
+); 
 
- 
+CREATE TABLE mymap (
+    location VARCHAR(100),
+    lat VARCHAR (100),
+    lon VARCHAR (100)
+);
+
+ insert into mymap values 
+ ('coex', 37.512,127.0592);
+
+insert into mymap values 
+ ('tower', 37.5125,127.102778);
 
