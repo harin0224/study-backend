@@ -76,3 +76,8 @@ VALUES( 10, '게시글 5 ', '게시글5 CONTENT 입니다 ', '3');
 
 
 SELECT * FROM BOARD;
+
+
+
+
+
