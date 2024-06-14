@@ -1,8 +1,10 @@
 package com.multi.test.member.service;
 
+import com.multi.test.member.model.dto.MemberDTO;
+
 import java.util.List;
 
-import com.multi.spring.member.model.dto.MemberDTO;
+
 
 public interface MemberService {
 

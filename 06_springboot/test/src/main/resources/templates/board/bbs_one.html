@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body {
+	background: yellow;
+}
+</style>
+</head>
+<body>
+
+    <!-- 이쪽에 메뉴바 포함 할꺼임 -->
+    <div id="menubar">
+        <!-- 여기에 메뉴바 내용이 들어갑니다. -->
+    </div>
+
+    <div class="content">
+        <br><br>
+        <div class="innerOuter">
+            <hr>
+            <a href="bbs">
+                <button id="b1">첫페이지로</button>
+            </a>
+            <a href="bbs_list">게시물 전체 목록페이지</a>
+            <br>
+            게시물검색 처리 요청이 완료되었습니다.
+            <br>
+            <span id="no"></span><br>
+            <span id="title"></span><br>
+            <span id="content"></span><br>
+            <span id="writer"></span><br>
+        </div>
+        <br><br>
+    </div>
+
+    <!-- 이쪽에 푸터바 포함할꺼임 -->
+    <div id="footer">
+        <!-- 여기에 푸터 내용이 들어갑니다. -->
+    </div>
+
+    <script>
+        // 서버로부터 받아온 데이터가 있다고 가정합니다.
+        const bag = {
+            no: '1',
+            title: '제목 예시',
+            content: '내용 예시',
+            writer: '작성자 예시'
+        };
+
+        // 받아온 데이터를 HTML에 삽입합니다.
+        document.getElementById('no').textContent = bag.no;
+        document.getElementById('title').textContent = bag.title;
+        document.getElementById('content').textContent = bag.content;
+        document.getElementById('writer').textContent = bag.writer;
+    </script>
+</body>
+</html>

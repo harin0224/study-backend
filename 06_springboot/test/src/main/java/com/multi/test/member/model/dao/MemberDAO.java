@@ -2,10 +2,10 @@ package com.multi.test.member.model.dao;
 
 import java.util.List;
 
+import com.multi.test.member.model.dto.MemberDTO;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.multi.spring.member.model.dto.MemberDTO;
 
 @Repository
 public class MemberDAO {

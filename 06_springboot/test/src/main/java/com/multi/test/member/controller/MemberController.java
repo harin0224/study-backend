@@ -2,22 +2,19 @@ package com.multi.test.member.controller;
 
 import java.util.List;
 
-import javax.servlet.http.HttpSession;
 
+import com.multi.test.member.model.dto.MemberDTO;
+import com.multi.test.member.service.MemberService;
+import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.BadSqlGrammarException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
-import org.springframework.web.servlet.ModelAndView;
 
-import com.multi.spring.member.model.dto.MemberDTO;
-import com.multi.spring.member.service.MemberService;
 
 /* error-page
  * exception-type
@@ -37,7 +34,7 @@ public class MemberController {
 	 
 	 
 	 @Autowired
-	 public MemberController(MemberService memberService) { 
+	 public MemberController(MemberService memberService) {
 		 this.memberService = memberService; 
 	 }
 	

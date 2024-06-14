@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		body {
+            background: yellow;
+        }
+	</style>
+</head>
+<body>
+
+<!-- Menubar -->
+<div class="menubar">
+	<!-- Menubar content goes here -->
+</div>
+
+<div class="content">
+	<br><br>
+	<div class="innerOuter">
+
+		<hr>
+		<a href="bbs">
+			<button id="b1">첫페이지로</button>
+		</a>
+		<a href="bbs_list">게시물 전체 목록페이지</a>
+		<br>
+		게시물검색 처리 요청이 완료되었습니다.
+		<br>
+		<span th:text="${bag.no}, ${bag.title}, ${bag.content}, ${bag.writer}"></span>
+
+	</div>
+	<br><br>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+	<!-- Footer content goes here -->
+</div>
+</body>
+</html>

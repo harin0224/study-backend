@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- common/menubar.jsp 파일의 내용을 여기에 삽입 -->
+<nav>
+    <!-- 여기에 메뉴바의 내용을 삽입 -->
+</nav>
+<div class="content" style="height: 600px">
+    나의 첫 홈페이지.!!!
+    <hr color="red">
+    <a href="member/member">
+        <button class="btn btn-primary">회원CRUD페이지로</button>
+    </a>
+    <a href="board/bbs">
+        <button class="btn btn-primary">게시판CRUD페이지로</button>
+    </a>
+</div>
+
+<div th:with="firstValue=${'타임리프'}">
+    <h3 th:text="${firstValue}"></h3>
+</div>
+
+<span th:text="${data1}"></span>
+
+
+
+<!-- common/footer.jsp 파일의 내용을 여기에 삽입 -->
+<footer>
+    <!-- 여기에 푸터의 내용을 삽입 -->
+</footer>
+</body>
+</html>

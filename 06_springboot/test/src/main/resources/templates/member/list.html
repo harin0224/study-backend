@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+button {
+	background: pink;
+}
+
+.t1 { /* .은 클래스 선택!, 여러개선택!  */
+	background: yellow;
+	width: 150px;
+	text-align: center;
+}
+
+#b1 { /* #은 아이디 선택!, 특정한 것 한 개만 선택! */
+	color: red;
+}
+
+#b2 {
+	color: blue;
+}
+</style>
+</head>
+<body>
+
+	<!-- 이쪽에 메뉴바 포함 할꺼임 -->
+	<nav>
+		<!-- 여기에 메뉴바의 내용을 삽입 -->
+	</nav>
+
+	<div class="content">
+		<br>
+		<br>
+		<div class="innerOuter">
+			<a href="member">
+				<button id="b1">첫페이지로</button>
+			</a>
+			회원검색 처리 요청이 완료되었습니다.<br>
+
+			<div id="userList">
+				<!-- 여기에 사용자 리스트가 삽입됩니다 -->
+			</div>
+		</div>
+		<br>
+		<br>
+	</div>
+
+	<!-- 이쪽에 푸터바 포함할꺼임 -->
+	<footer>
+		<!-- 여기에 푸터의 내용을 삽입 -->
+	</footer>
+
+	<script>
+		// 서버에서 받은 데이터 예시
+		const userList = [
+			{id: "user1", pw: "pw1", name: "name1", tel: "tel1"},
+			{id: "user2", pw: "pw2", name: "name2", tel: "tel2"}
+		];
+
+		const userListContainer = document.getElementById('userList');
+		userList.forEach(user => {
+			const userDiv = document.createElement('div');
+			userDiv.innerHTML = `
+				${user.id} <br>
+				${user.pw} <br>
+				${user.name} <br>
+				${user.tel} <br>
+				<hr>
+			`;
+			userListContainer.appendChild(userDiv);
+		});
+	</script>
+</body>
+</html>

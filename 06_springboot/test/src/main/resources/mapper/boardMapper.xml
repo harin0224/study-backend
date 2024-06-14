@@ -3,27 +3,35 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="boardMapper">
-	
 
-	<select id="selectAll" resultType="boardDTO"  parameterType="pageDTO">
-		select rownum, no, title, content, writer from (
-		select ROW_NUMBER() over(order by no desc) as rownum, b.*
-		from board b) bbs2
-		where bbs2.rownum between ${start} and ${end}
-
-	
-<!-- 		mysql 5.5
-			select 
-				@row_number:=@row_number+1 as rownum, b.*
-			from
-				(select @row_number:=0) as r, bbs b
-				order by id desc
-				limit 10 offset ${start} 
--->
+	<select id="selectList" resultType="BoardDTO">
+	<!-- select * from bbs -->
+	select rownum, no, title, content, writer from (
+	select ROW_NUMBER() over(order by no desc) as rownum, b.*
+	from board b) bbs2
+	where bbs2.rownum between 10 and 15
 	</select>
 
 
-	<select id="selectCount" resultType="Integer">
-		select count(*) count from board
-	</select>
+<!--	<select id="selectAll" resultType="BoardDTO">-->
+<!--		select rownum, no, title, content, writer from (-->
+<!--		select ROW_NUMBER() over(order by no desc) as rownum, b.*-->
+<!--		from board b) bbs2-->
+<!--		where bbs2.rownum between ${start} and ${end}-->
+
+<!--	-->
+<!--&lt;!&ndash; 		mysql 5.5-->
+<!--			select -->
+<!--				@row_number:=@row_number+1 as rownum, b.*-->
+<!--			from-->
+<!--				(select @row_number:=0) as r, bbs b-->
+<!--				order by id desc-->
+<!--				limit 10 offset ${start} -->
+<!--&ndash;&gt;-->
+<!--	</select>-->
+
+
+<!--	<select id="selectCount" resultType="Integer">-->
+<!--		select count(*) count from board-->
+<!--	</select>-->
 </mapper>

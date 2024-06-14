@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body {
+	background: yellow;
+}
+</style>
+</head>
+<body>
+	<!-- 이쪽에 메뉴바 포함 할꺼임 -->
+	<nav>
+		<!-- 여기에 메뉴바의 내용을 삽입 -->
+	</nav>
+
+	<div class="content">
+		<br>
+		<br>
+		<div class="innerOuter">
+			회원검색 처리 요청이 완료되었습니다.<br>
+			<!-- 여기에 ${dto.id}, ${dto.pw}, ${dto.name}, ${dto.tel} 값 삽입 -->
+			<span id="id"></span> <br>
+			<span id="pw"></span> <br>
+			<span id="name"></span> <br>
+			<span id="tel"></span> <br>
+		</div>
+		<br>
+		<br>
+	</div>
+
+	<!-- 이쪽에 푸터바 포함할꺼임 -->
+	<footer>
+		<!-- 여기에 푸터의 내용을 삽입 -->
+	</footer>
+
+	<script>
+		// 이 스크립트 블록에 서버에서 받은 데이터를 삽입
+		const dto = {
+			id: "sample_id",
+			pw: "sample_pw",
+			name: "sample_name",
+			tel: "sample_tel"
+		};
+
+		document.getElementById('id').textContent = dto.id;
+		document.getElementById('pw').textContent = dto.pw;
+		document.getElementById('name').textContent = dto.name;
+		document.getElementById('tel').textContent = dto.tel;
+	</script>
+</body>
+</html>
